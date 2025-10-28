@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rhapsody · 苹果世界 | Apple‑World</title>
+  <meta name="description" content="Rhapsody · 苹果世界 — 研究方向：数理统计、优化算法、智能控制系统；项目：AN‑MPC、MD‑A* 等。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <div class="brand">
+      <img class="logo" src="assets/favicon.svg" alt="Apple‑World logo" />
+      <h1>Rhapsody · 苹果世界</h1>
+      <p class="tag">USTC · Statistics & Financial Systems (M.S.)</p>
+    </div>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#notes">Notes</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="content">
+  <section class="hero">
+    <div class="wrap">
+      <h2>“数学不仅是一门工具，更是一种关于存在与认知的语言。”</h2>
+      <p class="lead">Hi! I’m building a unified toolkit that blends <strong>mathematical statistics</strong>, <strong>optimization & control</strong>, and <strong>machine learning</strong> — engineered for reproducible research and elegant writing.</p>
+      <a class="btn" href="#projects">Explore Projects</a>
+      <a class="btn ghost" href="#about">Read More</a>
+    </div>
+  </section>
+
+  <section id="about" class="card">
+    <h3>关于我 · About</h3>
+    <p><strong>中国科学技术大学 管理学院 统计与金融系统专业研究生</strong>。研究兴趣涵盖：分析哲学与逻辑模型、概率论与测度论、非参数统计、贝叶斯推断、优化与智能控制（KKT / ADMM / OSQP）、强化学习在最优控制中的应用等。</p>
+    <ul class="kv">
+      <li><span>当前主题</span><span>ZFC 与范畴理论的对话</span></li>
+      <li><span>关键词</span><span>AN‑MPC · MD‑A* · TabPFN · Operator‑splitting</span></li>
+      <li><span>写作环境</span><span>Typora + 自研主题 “Catalyst / Rhapsody”</span></li>
+    </ul>
+  </section>
+
+  <section id="research" class="card">
+    <h3>研究方向 · Research</h3>
+    <div class="grid two">
+      <div>
+        <h4>Optimization & Control</h4>
+        <ul>
+          <li>Convex QP · KKT · Monotone Operators</li>
+          <li>ADMM / DRS · OSQP · RL‑guided hyper‑params</li>
+          <li>AN‑MPC with disturbance compensation</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Statistics & Foundations</h4>
+        <ul>
+          <li>Measure theory · Nonparametrics · EB</li>
+          <li>ZFC, categories & model theory sketches</li>
+          <li>Robustness analysis & simulation studies</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="card">
+    <h3>工程与项目 · Projects</h3>
+    <article class="project">
+      <h4>AN‑MPC 控制系统 (MATLAB)</h4>
+      <p>动态期望航向角、扰动叠加、Fossen 模型预测、航向对准奖励、提前终止机制，输出轨迹与收敛状态可视化。</p>
+      <p class="meta">Tags: MPC · Robust control · Simulation</p>
+    </article>
+    <article class="project">
+      <h4>MD‑A* 路径规划</h4>
+      <p>改进启发式与多目标代价；与控制器耦合以检验全流程导航的工程可行性。</p>
+      <p class="meta">Tags: Path planning · Heuristics</p>
+    </article>
+    <article class="project">
+      <h4>Rhapsody / Catalyst · Typora 主题</h4>
+      <p>高对比“镜之边缘”配色，卡片式写作区、能量光带、数学字体与 PDF 友好导出。</p>
+      <p class="meta">Tags: CSS · Typography · Design system</p>
+    </article>
+  </section>
+
+  <section id="notes" class="card">
+    <h3>笔记 · Notes</h3>
+    <ul>
+      <li><a href="#">【讲义】凸函数与常用性质备忘</a></li>
+      <li><a href="#">【随笔】从 KKT 到 ADMM：算子视角</a></li>
+      <li><a href="#">【思考】ZFC 与范畴：冯宇宙 vs 迪宇宙</a></li>
+    </ul>
+    <p class="hint">Tip: 将你的 Markdown 直接放到 <code>/notes/</code> 目录并在此处链接。</p>
+  </section>
+
+  <section id="contact" class="card">
+    <h3>联系 · Contact</h3>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a> · GitHub: <a href="https://github.com/your-username">your-username</a></p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="y"></span> Rhapsody · Apple‑World. Built with ❤️ on GitHub Pages.</p>
+</footer>
+
+<script>
+  document.getElementById('y').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
